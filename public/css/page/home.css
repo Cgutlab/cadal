@@ -1,0 +1,223 @@
+.cont-pro{
+
+	position: relative;
+
+}
+
+.div-product{
+
+	margin-top: 2%;
+
+	border: 1px solid #CBCBCB;
+
+	display: flex;
+
+    position: relative;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 377px;
+
+    border-radius: 25px;
+
+}
+
+.div-nombre{
+
+	height: 66px;
+
+	font-weight: 300;
+
+	font-family: 'Montserrat', sans-serif;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+	font-size: 22px;
+
+	color: black;
+
+	position: absolute;
+
+    width: 100%;
+
+    bottom: 0;
+
+
+
+}
+
+.titulo-soplado{
+
+	font-family: 'Montserrat', sans-serif;
+
+	color: #626262;
+
+	font-size: 30px;
+
+	font-weight: 600;
+
+	text-align: center;
+	margin-top: 5%;
+    margin-bottom: 1%;
+
+}
+
+.raya-soplado{
+
+	height: 2px;
+
+	width: 100px;
+
+	background-color: #ff1800;
+
+}
+
+@media only screen and (max-width:600px){
+
+	.div-nombre{
+
+		font-size: 90%;
+
+	}
+
+	.div-product{
+
+	    height: 300px;
+
+	}
+
+}
+
+.titulo-contenido p{
+
+	color: #1F1F1F;
+
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 35px;
+
+	font-weight: 700;
+
+	margin: 0px;
+
+}
+
+
+
+.contenido-contenido p{
+
+	color: #424141;
+
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 17px;
+
+	font-weight: 300;
+
+	margin: 0px;
+
+}
+
+.contenido{
+
+	background-color: #eeeeee;
+
+	padding: 2% 22%;
+
+    text-align: center;
+
+    margin-bottom: 0px;
+
+}
+
+.boton{
+
+	display: flex;
+
+    width: 200px;
+
+    height: 43px;
+
+    border: 1px solid #ff1800;
+
+    color: #ff1800;
+
+    background-color: transparent;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 5px;
+
+    font-weight: 700;
+
+    margin-top: 25px;
+
+}
+
+.boton:hover{
+
+	border-radius: 20px;
+
+}
+
+.estilo{
+
+	background-color: transparent;
+
+	border: 1px solid #F9F1E9;
+
+	border-radius: 5px;
+
+	color: #F9F1E9;
+
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.estilo:hover{
+
+	background-color: transparent;
+
+	border: 1px solid #F9F1E9;
+
+	border-radius: 20px;
+
+	color: #F9F1E9;
+
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+@media only screen and (max-width:650px){
+
+	.estilo{
+
+		background-color: transparent;
+
+		border: 1px solid #7A774C;
+
+		color: #7A774C;
+
+		font-family: 'Montserrat', sans-serif;
+
+		height: 20px;
+
+	    display: flex;
+
+	    justify-content: center;
+
+	    align-items: center;
+
+	    font-size: 8px;
+
+	}
+
+}

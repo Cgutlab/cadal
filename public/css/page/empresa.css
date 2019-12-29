@@ -1,0 +1,37 @@
+.somos{
+	color: #626262;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.contenido p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+.titulo p{
+	color: #444444;
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 60px;
+	font-family: 'Montserrat', sans-serif;
+}
+.titulo p{
+	margin: 10px 0; 
+}
+.raya-soplado{
+	height: 2px;
+	width: 100px;
+	background-color: #ff1800;
+}
+.tit{
+	margin: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	color: #F9F1E9;
+}
+.barra-tit{
+	width: 34px;
+	height: 1px;
+	background-color: #F9F1E9;
+}

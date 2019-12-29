@@ -1,0 +1,521 @@
+/*BUSCADOR*/
+
+.dropdown-menu {
+
+	right: 0% !important;
+
+	left: -200% !important;
+
+	background-color: #787950 !important;
+
+}
+
+header  #buscador {
+
+  float: right;
+
+
+
+}
+
+header  #buscador input[type=search] {
+
+	
+
+  width: 20px;
+
+    height: 42px;
+
+    padding-left: 25px;
+
+    color: transparent;
+
+    cursor: pointer;
+
+    background-color: #ff1800;
+
+    border: 0px;
+
+    border-left: 2px solid white;
+
+    border-right: 2px solid white;
+
+    background: #ff1800 no-repeat url(../img/generico/lupa.png) 0 center;
+
+    -webkit-transition: all .5s;
+
+    -moz-transition: all .5s;
+
+    transition: all .5s;
+
+    margin: 0px;
+
+}
+
+#buscador input::placeholder {
+
+  color: black;
+
+}
+
+header  #buscador input[type=search]:hover {
+
+  background-color: #ff1800;
+
+  color: transparent;
+
+}
+
+header  #buscador input[type=search]:focus {
+
+  width: 200px;
+
+  color: white;
+
+  cursor: auto;
+
+   border: 0px;
+
+   background-color: #ff1800;
+
+}
+
+/*--*/
+
+header .li-contacto{
+
+  background-color: #ff1800; 
+
+  color: white; 
+
+  border-radius: 0px;
+
+  float:right;
+
+  height: 42px;
+
+  width: 110px;
+
+  display: flex;
+
+  justify-content: center;/* horizontal*/
+
+  align-items: center; /*vertical*/
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 14px;
+
+  border-right: 2px solid white;
+
+  border-radius: 0px 0px 25px 0px;
+
+}
+
+header .li-contacto a{
+
+  font-family: 'Montserrat', sans-serif;
+
+  color: #F9F1E9;
+
+  font-size: 14px;
+
+} 
+
+header .li-red{
+
+  background-color: #ff1800; 
+
+  border-radius: 0px; 
+
+  list-style:none;
+
+  float:right;
+
+  height: 42px;
+
+  width: 35px;
+
+
+
+  display: flex;
+
+  justify-content: center;/* horizontal*/
+
+  align-items: center; /*vertical*/
+
+}
+
+.cont-header{
+
+  height: 42px;
+
+}
+
+.dropdown-content-mine{
+
+    top: 100% !important;
+
+}
+
+.dropdown-content li>a{
+
+  color: black;
+
+  font-family: 'Montserrat', sans-serif;
+
+  text-transform: uppercase;
+
+}
+
+.dropdown-content li>a:hover{
+
+  color: #1F950C;
+
+  background-color: white;
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 700;
+
+}
+
+nav{
+
+	background-color: white;
+
+	color: black;
+
+}
+
+nav.header a.li-ppal{
+
+	color: black;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+@media only screen and (max-width: 600px){
+
+	.logo{
+
+		width: 150px;
+
+	}
+
+}
+
+@media only screen and (min-width: 601px){
+
+	nav.header{
+
+		height: 150px;
+
+    	line-height: 150px;
+
+    	background-color: white;
+
+	}
+
+	
+
+	
+
+	.cont{
+
+		position:  absolute; right: 0;
+
+    display: inline-block;
+
+	}
+
+}
+
+.cont{
+
+  border-bottom: 1px solid #ff0000;
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 150px;
+
+}
+
+nav .brand-logo {
+
+    position: relative !important;
+
+}
+
+@media only screen and (max-width: 992px){
+
+  .brand-logo{
+
+    margin-left: 7%;
+
+  }
+
+  
+
+}
+
+ul.right li a.li-ppal{
+
+	font-family: 'Source Sans Pro', sans-serif;
+
+	color: black;
+
+	font-size: 17px;
+
+	text-transform: uppercase;
+
+}
+
+@media only screen and (max-width: 992px) and (min-width: 601px){
+
+  .nav-wrapper{
+
+    display: flex;
+
+    align-items: center;
+
+  }
+
+}
+
+
+
+.circle{
+
+    position:  absolute;
+
+    border: 1px solid #1F950C;
+
+    height:  50px;
+
+    width:  50px;
+
+    border-radius:  50px;
+
+}
+
+.language{
+
+	position:  relative; display:  flex; align-items:  center; justify-content:  center;
+
+  height: 150px;
+
+}
+
+
+
+a.li-ppal:hover{
+
+  border-bottom: 3px solid #ff1800;
+
+  height: 150px;
+
+  font-weight: 700;
+
+  background-color: white !important;
+
+}
+
+.active-ppal{
+
+  border-bottom: 3px solid #ff1800;
+
+  height: 150px;
+
+  font-weight: 700;
+
+  background-color: white !important;
+
+}
+
+.top{
+
+  border: 0px;
+
+  height: 42px;
+
+}
+@media only screen and (max-width: 992px) {
+    .li-hover{
+      display: none;
+    }
+    .logo{
+      margin-left: 25%;
+    }
+    .cont{
+      border: 0px;
+    }
+}
+/*footer*/
+
+.page-footer {
+
+    padding-top: 20px;
+
+    color: #fff;
+
+    background-color: #424242;
+
+    padding: 0px 7%;
+
+}
+
+.titulo-footer{
+
+  margin-left: 52px;
+
+  font-size: 16px;
+
+  color: #ff1800;
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 700;
+
+}
+
+.li a{
+
+  font-family: 'Montserrat', sans-serif;
+
+  color: white;
+
+}
+
+.links{
+
+  display: inline-flex;
+
+}
+
+@media only screen and (min-width:1276px){
+
+  .padding-in{
+
+    padding-left: 50px !important;
+
+  }
+
+}
+
+#dropdown1{
+
+  width: 250px !important;
+
+}
+
+
+
+/*idiomas*/
+
+
+
+.idioma{
+
+  position: relative;
+
+  display: flex;
+
+}
+
+.idioma:hover .idiomas .icon-i{
+
+  height: 32;
+
+  margin-top: 10px;
+
+  height: 35px;
+
+  width: 35px;
+
+  opacity: 1;
+
+  font-size: 12px;
+
+  transition: 0.4s;
+
+}
+
+.idioma a.icon-i{
+
+  background: #fff;
+
+  color: #1F950C;
+
+  border: 1px solid #1F950C;
+
+  width: 35px;
+
+  height: 35px;
+
+  border-radius: 100%;
+
+  margin-left: 10px;
+
+  margin-right: 10px;
+
+  text-align: center;
+
+  line-height: 30px;
+
+  font-weight: bold;
+
+  transition: 0.4s;
+
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+}
+
+.idiomas{
+
+  position: absolute;
+
+  top: 35px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 35px;
+
+  left: 15px;
+
+  z-index: 1000;
+
+}
+
+
+
+.idiomas a.icon-i{
+
+  display: block;
+
+  margin-top: 0px;
+
+  margin-left: 0;
+
+  height: 0;
+
+  width: 0;
+
+  font-size: 0;
+
+  opacity: 0;
+
+  transition: 0.4s;
+
+}

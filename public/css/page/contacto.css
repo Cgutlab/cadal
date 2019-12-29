@@ -1,0 +1,87 @@
+.datos{
+	position: absolute;
+    bottom: 0px;
+    background-color: #333333;
+    box-shadow: 5px 10px 10px #ebebeb;
+    left: 5%;
+    color: white;
+    padding: 5px;
+}
+.contacto{
+	background-color: rgba(240,240,240,0.20);
+	padding: 10px;
+	color: #666666;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	text-align: center;
+}
+.titulo-contacto{
+	color: #97B700;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	margin-bottom: 0px;
+}
+.barra{
+	background-color: #97B700;
+	height: 5px;
+	width: 70px;
+}
+.boton{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.boton .btn{
+	background-color: #ff1800;
+	color: white;
+	border-radius: 5px;
+	width: 250px;
+}
+.input-field .prefix.active{
+	color: #DDC6B4;
+}
+.titulo-datos{
+	margin-left: 70px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+/* label focus color */
+ .input-field input:focus + label {
+   color: #ff1800 !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #ff1800 !important;
+   box-shadow: 0 1px 0 0 #ff1800 !important
+ }
+
+ /* label focus color */
+ .input-field textarea:focus + label {
+   color: #ff1800 !important;
+ }
+ /* label underline focus color */
+ .row .input-field textarea:focus {
+   border-bottom: 1px solid #ff1800 !important;
+   box-shadow: 0 1px 0 0 #ff1800 !important
+ }
+
+
+ .input-field input + label {
+   font-family: 'Montserrat', sans-serif !important;
+ }
+  .row .input-field input {
+   border-bottom: 1px solid #ff1800 !important;
+   box-shadow: 0 1px 0 0 #ff1800 !important
+ }
+ /* label focus color */
+ .input-field textarea + label {
+   font-family: 'Montserrat', sans-serif !important;
+ }
+ /* label underline focus color */
+ .row .input-field textarea {
+   border-bottom: 1px solid #ff1800 !important;
+   box-shadow: 0 1px 0 0 #ff1800 !important
+ }
